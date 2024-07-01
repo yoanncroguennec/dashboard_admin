@@ -1,7 +1,7 @@
 
 const getTopics = async () => {
   try {
-    const res = await fetch("http://localhost:3000/api/topics", {
+    const res = await fetch("https://dashboard-admin-muqtkmyzt-yoann-croguennec.vercel.app/api/topics", {
       cache: "no-store",
     });
 
